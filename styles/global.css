@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.custom-text{
+    color: rgb(29, 78, 216);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 10px;
+}
