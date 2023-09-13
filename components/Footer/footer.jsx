@@ -11,7 +11,7 @@ const Footer = () => {
                     </span>
                     <span>
                         Built and design by &nbsp;
-                        <Link href='' className={`underline underline-offset-2`}>
+                        <Link href='/' className={`underline underline-offset-2`}>
                             Soumya Prakash Sahu
                         </Link>
                     </span>
