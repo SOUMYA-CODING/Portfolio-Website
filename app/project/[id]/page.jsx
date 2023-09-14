@@ -6,24 +6,13 @@ import TransitionEffect from "@/components/Animations/transition-effect"
 import AnimatedText from "@/components/Animations/animated-text"
 
 import Image from "next/image"
-import Button from "@/components/ui/button"
 import Layout from "@/components/Layout/layout"
 import Link from "next/link";
-import { Github, Youtube, YoutubeIcon } from "lucide-react";
+import { Github } from "lucide-react";
 
 const ProjectDetails = () => {
     const params = useParams()
     const project = ProjectData.find((x) => x.id === params.id)
-
-    const checkYoutubeUrl = () => {
-        if (project.isThereYoutubeUrl === "yes") {
-            return (
-                <Button title="Youtube" href={project.youTubeUrl} />
-            )
-        } else {
-            return null
-        }
-    }
 
     return (
         <>
@@ -77,10 +66,6 @@ const ProjectDetails = () => {
                             <Link className={`mx-2 flex items-center justify-center md:mx-0 font-medium underline `} href="https://www.linkedin.com/in/soumya-prakash-sahu-68886921b/" target={`_blank`}>
                                 <Github className={`mx-2 text-black`} />
                                 Get the project from Github
-                            </Link>
-                            <Link className={`mx-2 flex items-center justify-center md:mx-0 font-medium underline `} href="https://www.linkedin.com/in/soumya-prakash-sahu-68886921b/" target={`_blank`}>
-                                <Youtube className={`mx-2 text-red-700`} />
-                                Watch on Youtube
                             </Link>
                         </div>
                     </div>

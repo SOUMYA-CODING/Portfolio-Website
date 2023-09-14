@@ -1,5 +1,5 @@
-import SpotifyClone from '../../public/assets/projects/spotify-clone.jpeg'
-import SiliconGuestHouse from '../../public/assets/projects/silicon-guest-house.jpeg'
+import SpotifyClone from '../../public/assets/projects/spotify-clone.webp'
+import SiliconGuestHouse from '../../public/assets/projects/silicon-guest-house.webp'
 
 const ProjectData = [
     {
@@ -8,23 +8,22 @@ const ProjectData = [
         projectBannerAlt: 'Soumya Prakash Sahu | Projects - 2 | Spotify Clone',
         type: 'Web Development',
         title: 'Music application - Spotify Clone',
-        shortDescription: 'Developing a website for Silicon Guest House, featuring tech-equipped guest rooms for a comfortable stay experience.',
+        shortDescription: ' Spotify your destination for seamless music streaming, blending technology and music in perfect harmony',
         fullDescription: [
-            'A multi-vendor e-commerce platform is like a bustling marketplace that you can access from the comfort of your own home. This platform allows a diverse range of vendors to sell their products or services to customers all over the world through a single online store.',
-            'The platform has four essential components: the admin website, the end-user website, the end-user app, and the vendor dashboard app. The admin website is the central hub of the platform, providing an easy-to-use interface for managing its operations.',
-            'The end-user website is where the customers can browse and purchase products. Its designed to be engaging and responsive, providing a delightful shopping experience. The end-user app and vendor dashboard app are built to be super fast and reliable, ensuring that users can access the platform from anywhere, at any time.',
-            'The platform is fully automated, which means that everything is done for you seamlessly. Jenkins stores it in Docker containers, which can be easily deployed on the AWS cloud. The platform features include intuitive navigation, local vendor registration, and Stripe payment integration, among others.',
+            'Spotify, where music meets innovation. This platform offers seamless song uploads, secure Stripe payment integration, and a sleek Tailwind-designed UI with captivating animations. Enjoy a fully responsive experience on all your devices, knowing your credentials are protected through Supabase and GitHub authentication.',
+            'Manage your music effortlessly with Supabase storage, client form validation, and error handling. Dive into your favorites, create playlists, and elevate your audio journey with our advanced Player component. We even simplify Stripe recurring payment management and offer easy subscription cancellation.',
+            'Learn how to handle routes and fetch data directly in server React components for ultimate control.',
         ],
-        tech: ['Next.js', 'Tailwind CSS', 'Supabase', 'Stripe Payment'],
+        tech: ['Next.js 13 (App Router)', 'React.js', 'Tailwind CSS', 'Supabase', 'Stripe'],
         features: [
             'User-firendly',
             'SEO Optimized',
             'Strip Payment',
-            'Mobile Responsive'
+            'Advanced Player component',
+            'Github authentication',
+            'Full responsiveness for all devices'
         ],
-        gitHubLink: 'https://github.com/SOUMYA-CODING/Silicon-Guest-House',
-        isThereYoutubeUrl: 'yes',
-        youTubeUrl: '',
+        gitHubLink: 'https://github.com/SOUMYA-CODING/spotify-clone',
     },
     {
         id: '2',
@@ -32,23 +31,22 @@ const ProjectData = [
         projectBannerAlt: 'Soumya Prakash Sahu | Projects - 1 | Silicon Guest House',
         type: 'Web Development',
         title: 'Guest House Website for Silicon Guest House',
-        shortDescription: 'Developing a website for Silicon Guest House, featuring tech-equipped guest rooms for a comfortable stay experience.',
+        shortDescription: 'Website for Silicon Guest House, featuring tech-equipped guest rooms for a comfortable stay experience.',
         fullDescription: [
-            'A multi-vendor e-commerce platform is like a bustling marketplace that you can access from the comfort of your own home. This platform allows a diverse range of vendors to sell their products or services to customers all over the world through a single online store.',
-            'The platform has four essential components: the admin website, the end-user website, the end-user app, and the vendor dashboard app. The admin website is the central hub of the platform, providing an easy-to-use interface for managing its operations.',
-            'The end-user website is where the customers can browse and purchase products. Its designed to be engaging and responsive, providing a delightful shopping experience. The end-user app and vendor dashboard app are built to be super fast and reliable, ensuring that users can access the platform from anywhere, at any time.',
-            'The platform is fully automated, which means that everything is done for you seamlessly. Jenkins stores it in Docker containers, which can be easily deployed on the AWS cloud. The platform features include intuitive navigation, local vendor registration, and Stripe payment integration, among others.',
+            'Navigating our website is a breeze. I have created an intuitive and aesthetically pleasing user interface to ensure that finding information, exploring our guest house, and making reservations are effortless.',
+            'Implemented a straightforward and efficient booking system that leverages robust backend logic. This allows users to input their check-in and check-out dates, select room preferences, and complete reservations swiftly.',
+            'Recognizing the prevalence of mobile browsing, this website is fully responsive. Also developed a custom admin panel to empower administrators with the tools they need to manage reservations, room availability, and guest interactions efficiently.',
         ],
-        tech: ['Django', 'HTML', 'CSS', 'Bootstrap'],
+        tech: ['Django', 'MySQL', 'HTML', 'CSS', 'Bootstrap'],
         features: [
-            'User-firendly',
-            'SEO Optimized',
-            'Strip Payment',
-            'Mobile Responsive'
+            'User-Friendly UI',
+            'Easy Booking Process',
+            'Mobile Responsiveness',
+            'Custom Admin Panel',
+            'Report Generation',
+            'Bill Generation'
         ],
         gitHubLink: 'https://github.com/SOUMYA-CODING/Silicon-Guest-House',
-        isThereYoutubeUrl: 'yes',
-        youTubeUrl: '',
     },
 
 ]
