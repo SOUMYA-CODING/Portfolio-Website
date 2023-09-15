@@ -63,7 +63,7 @@ const ProjectDetails = () => {
                             <span className={'font-bold '}>
                                 Links : &nbsp;
                             </span>
-                            <Link className={`mx-2 flex items-center justify-center md:mx-0 font-medium underline `} href="https://www.linkedin.com/in/soumya-prakash-sahu-68886921b/" target={`_blank`}>
+                            <Link className={`mx-2 flex items-center justify-center md:mx-0 font-medium underline `} href={project.gitHubLink} target={`_blank`}>
                                 <Github className={`mx-2 text-black`} />
                                 Get the project from Github
                             </Link>
