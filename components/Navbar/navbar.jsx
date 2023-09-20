@@ -49,7 +49,7 @@ const Navbar = () => {
                         <CustomLink href="/" title="Home" className='mr-4' />
                         <CustomLink href="/about" title="About Me" className='mx-4' />
                         <CustomLink href="/project" title="Projects" className='mx-4' />
-                        <CustomLink href="mailto:soumyaprakashsahu2001@gmail.com" title="Contact" className='ml-4' />
+                        <CustomLink href="/contact" title="Contact" className='ml-4' />
                     </nav>
                 </div>
 
@@ -60,7 +60,7 @@ const Navbar = () => {
                                 <CustomMobileLink href="/" title="Home" className='' toggle={handleClick} />
                                 <CustomMobileLink href="/about" title="About Me" className='' toggle={handleClick} />
                                 <CustomMobileLink href="/project" title="Projects" className='' toggle={handleClick} />
-                                <CustomMobileLink href="mailto:soumyaprakashsahu2001@gmail.com" title="Contact" className='' toggle={handleClick} />
+                                <CustomMobileLink href="/contact" title="Contact" className='' toggle={handleClick} />
                                 <div className={`flex items-center justify-center mt-3`}>
                                     <Link href={`https://github.com/SOUMYA-CODING`} target='_blank' className={`text-white mx-2`}><Github /></Link>
                                     <Link href={`https://www.linkedin.com/in/soumya-prakash-sahu-68886921b/`} target='_blank' className={`text-white mx-2`}><Linkedin /></Link>
