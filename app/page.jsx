@@ -2,8 +2,6 @@ import AnimatedText from "@/components/Animations/animated-text"
 import TransitionEffect from "@/components/Animations/transition-effect"
 import Layout from "@/components/Layout/layout"
 import Button from "@/components/ui/button"
-import ProfilePic from "../public/assets/profile_image.png"
-import Image from "next/image"
 
 const Home = () => {
     return (
