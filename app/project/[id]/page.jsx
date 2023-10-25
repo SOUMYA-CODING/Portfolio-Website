@@ -8,11 +8,44 @@ import AnimatedText from "@/components/Animations/animated-text"
 import Image from "next/image"
 import Layout from "@/components/Layout/layout"
 import Link from "next/link";
-import { Github } from "lucide-react";
+import { Github, Globe, Smartphone } from "lucide-react";
 
 const ProjectDetails = () => {
     const params = useParams()
     const project = ProjectData.find((x) => x.id === params.id)
+
+    const getGithub = () => {
+        if (project.isGithub) {
+            return (
+                <Link className={`mx-2 flex items-center justify-center md:mx-0 font-medium underline `} href={project.gitHubLink} target={`_blank`}>
+                    <Github className={`mx-2 text-black`} />
+                    Get the project from Github
+                </Link>
+            )
+        }
+    }
+
+    const getLive = () => {
+        if (project.isLive) {
+            return (
+                <Link className={`mx-2 flex items-center justify-center md:mx-0 font-medium underline `} href={project.liveLink} target={`_blank`}>
+                    <Globe className={`mx-2 text-black`} />
+                    Webiste live preview
+                </Link>
+            )
+        }
+    }
+
+    const getMobileLive = () => {
+        if (project.isMobileLive) {
+            return (
+                <Link className={`mx-2 flex items-center justify-center md:mx-0 font-medium underline `} href={project.mobileliveLink} target={`_blank`}>
+                    <Smartphone className={`mx-2 text-black`} />
+                    Mobile app live preview
+                </Link>
+            )
+        }
+    }
 
     return (
         <>
@@ -57,16 +90,14 @@ const ProjectDetails = () => {
                                     </section>
                                 </div>
                             </div>
-
                         </div>
                         <div className={`w-full flex items-start justify-start md:mt-16 md:flex-col`}>
                             <span className={'font-bold '}>
                                 Links : &nbsp;
                             </span>
-                            <Link className={`mx-2 flex items-center justify-center md:mx-0 font-medium underline `} href={project.gitHubLink} target={`_blank`}>
-                                <Github className={`mx-2 text-black`} />
-                                Get the project from Github
-                            </Link>
+                            {getGithub()}
+                            {getLive()}
+                            {getMobileLive()}
                         </div>
                     </div>
                 </Layout>

@@ -1,34 +1,65 @@
+import MaaTarini from '../../public/assets/projects/maa-tarini.png'
+import JotionClone from '../../public/assets/projects/jotion.webp'
 import SpotifyClone from '../../public/assets/projects/spotify-clone.webp'
-import SiliconGuestHouse from '../../public/assets/projects/silicon-guest-house.webp'
-import SamBlog from '../../public/assets/projects/sam-blog.webp'
-import EarthyNews from '../../public/assets/projects/earthy-news.png'
 
 const ProjectData = [
-    // {
-    //     id: '1',
-    //     projectBanner: EarthyNews,
-    //     projectBannerAlt: 'Soumya Prakash Sahu | Projects - 1 | Silicon Guest House',
-    //     type: 'App Development',
-    //     title: 'Earthy News - News Application',
-    //     shortDescription: 'Website for Silicon Guest House, featuring tech-equipped guest rooms for a comfortable stay experience.',
-    //     fullDescription: [
-    //         'Navigating our website is a breeze. I have created an intuitive and aesthetically pleasing user interface to ensure that finding information, exploring our guest house, and making reservations are effortless.',
-    //         'Implemented a straightforward and efficient booking system that leverages robust backend logic. This allows users to input their check-in and check-out dates, select room preferences, and complete reservations swiftly.',
-    //         'Recognizing the prevalence of mobile browsing, this website is fully responsive. Also developed a custom admin panel to empower administrators with the tools they need to manage reservations, room availability, and guest interactions efficiently.',
-    //     ],
-    //     tech: ['Django', 'Django REST Framework', 'SQLite', 'Firebase', 'Next.js 13 (App Router)', 'Shadcn/ui library', 'Flutter', 'Riverpod'],
-    //     features: [
-    //         'User-Friendly UI',
-    //         'Easy Booking Process',
-    //         'Mobile Responsiveness',
-    //         'Custom Admin Panel',
-    //         'Report Generation',
-    //         'Bill Generation'
-    //     ],
-    //     gitHubLink: 'https://github.com/SOUMYA-CODING/Earthly-News',
-    // },
     {
         id: '1',
+        projectBanner: MaaTarini,
+        projectBannerAlt: 'Soumya Prakash Sahu | Projects - 2 | Maa Tarini App',
+        type: 'App Development',
+        title: 'Maa Tarini - App',
+        shortDescription: 'Maa Tarini is one of the embodiments of Shakti and is one of the chief presiding Goddess in Oriya culture. Her chief shrine is in Ghatgaon, Keonjhar District, Odisha',
+        fullDescription: [
+            'Through a comprehensive redevelopment of the Maa Tarini App, we harnessed the power of Flutter and Getx to not only expand its functionality but also instill a commitment to clean code and the creation of reusable components, enhancing the overall codebase and maintainability.',
+            'With Firebase as our database solution on the admin site, data management became more robust and efficient, facilitating real-time updates. Furthermore, our adoption of Next.js, along with the sleek styling of Tailwind CSS and the versatile shadcn/ui components, has culminated in an admin site that not only excels in uploading and updating data but also delivers a smooth and aesthetically pleasing user experience.',
+            'These strategic improvements have yielded remarkable results, with a notable 20% increase in the apps performance.',
+        ],
+        tech: ['Flutter', 'Getx', 'Next.js 13 (App Router)', 'shadcn/ui', 'Firebase'],
+        features: [
+            'Optimized App',
+            'Dynamic Data',
+            'Reusebale Components',
+            'Auth with Firebase',
+            'App Update Notification',
+        ],
+        isGithub: false,
+        gitHubLink: '',
+        isLive: false,
+        liveLink: '',
+        isMobileLive: true,
+        mobileliveLink: '#',
+    },
+    {
+        id: '2',
+        projectBanner: JotionClone,
+        projectBannerAlt: 'Soumya Prakash Sahu | Projects - 1 | Jotion',
+        type: 'Web Development',
+        title: 'Jotion - Notion Clone',
+        shortDescription: 'Jotion is a featured-rich platform to take notes',
+        fullDescription: [
+            'Explore a visionary Notion-inspired application that revolutionizes the digital workspace. Seamlessly manage notes, documents, files, and projects in a user-centric, immersive environment, and unleash the power of web publishing for your ideas',
+            'Experience a platform that offers an immersive, tailor-made environment for note-taking, file management, and web publishing. Stand out with dynamic document cover images, emphasizing a design that revolves around your needs and preferences',
+            'Powered by Clerk, this project ensures unshakable authentication and offers a reassuring data recovery feature. It serves as a reliable solution for your data management needs, providing the peace of mind you deserve.',
+        ],
+        tech: ['Next.js 13 (App Router)', 'React.js', 'Tailwind CSS', 'shadcn/ui', 'Convex', 'Clerk'],
+        features: [
+            'Real-time database',
+            'Notion-style edito',
+            'Infinite children documents',
+            'Full mobile responsiveness',
+            'Publish your note to the web',
+            'Clerk Authentication'
+        ],
+        isGithub: true,
+        gitHubLink: 'https://github.com/SOUMYA-CODING/notion-clone',
+        isLive: true,
+        liveLink: 'https://notion-clone-mauve.vercel.app/',
+        isMobileLive: false,
+        mobileliveLink: '',
+    },
+    {
+        id: '3',
         projectBanner: SpotifyClone,
         projectBannerAlt: 'Soumya Prakash Sahu | Projects - 1 | Spotify Clone',
         type: 'Web Development',
@@ -48,53 +79,12 @@ const ProjectData = [
             'Github authentication',
             'Full responsiveness for all devices'
         ],
+        isGithub: true,
         gitHubLink: 'https://github.com/SOUMYA-CODING/spotify-clone',
-    },
-    {
-        id: '2',
-        projectBanner: SamBlog,
-        projectBannerAlt: 'Soumya Prakash Sahu | Projects - 2 | Sam Blog',
-        type: 'Web Development',
-        title: 'SamBlog - Blog Website',
-        shortDescription: 'A blog website is an online platform for sharing articles, stories, and opinions on various topics with a global audience.',
-        fullDescription: [
-            'SamBlog is a testament to the cutting-edge technologies and advanced features that power it. Built with Next.js 13 using the powerful App Router, your site ensures seamless navigation and fast load times, providing an exceptional user experience. The incorporation of React.js further enhances the interactivity and responsiveness of your content.',
-            'Prisma and MongoDB combine to create a robust and flexible database system, allowing for efficient data storage and retrieval. Firebase, on the other hand, brings real-time capabilities and secure authentication options, such as Google and Github authentication, ensuring that your data remains safe.',
-            'Its SEO optimization, making it more discoverable in search engines. The inclusion of Server Side Components ensures that makes pages load quickly and efficiently',
-        ],
-        tech: ['Next.js 13 (App Router)', 'React.js', 'Prisma', 'MongoDB', 'Firebase'],
-        features: [
-            'SEO Optimized',
-            'Server Side Components',
-            'Custom CSS',
-            'Next Auth',
-            'Google authentication',
-            'Github authentication',
-        ],
-        gitHubLink: 'https://github.com/SOUMYA-CODING/SamBlog',
-    },
-    {
-        id: '3',
-        projectBanner: SiliconGuestHouse,
-        projectBannerAlt: 'Soumya Prakash Sahu | Projects - 3 | Silicon Guest House',
-        type: 'Web Development',
-        title: 'Guest House Website for Silicon Guest House',
-        shortDescription: 'Website for Silicon Guest House, featuring tech-equipped guest rooms for a comfortable stay experience.',
-        fullDescription: [
-            'Navigating our website is a breeze. I have created an intuitive and aesthetically pleasing user interface to ensure that finding information, exploring our guest house, and making reservations are effortless.',
-            'Implemented a straightforward and efficient booking system that leverages robust backend logic. This allows users to input their check-in and check-out dates, select room preferences, and complete reservations swiftly.',
-            'Recognizing the prevalence of mobile browsing, this website is fully responsive. Also developed a custom admin panel to empower administrators with the tools they need to manage reservations, room availability, and guest interactions efficiently.',
-        ],
-        tech: ['Django', 'MySQL', 'HTML', 'CSS', 'Bootstrap'],
-        features: [
-            'User-Friendly UI',
-            'Easy Booking Process',
-            'Mobile Responsiveness',
-            'Custom Admin Panel',
-            'Report Generation',
-            'Bill Generation'
-        ],
-        gitHubLink: 'https://github.com/SOUMYA-CODING/Silicon-Guest-House',
+        isLive: false,
+        liveLink: '',
+        isMobileLive: false,
+        mobileliveLink: '',
     },
 ]
 

@@ -42,7 +42,7 @@ const ContactForm = () => {
                         <label htmlFor="message">Message</label>
                         <textarea id="message" name="message" value={message} onChange={(e) => setMessage(e.target.value)} cols="5" rows="4" className={`border-b-2 bg-transparent border-black outline-none p-2 w-full`} required></textarea>
                     </div>
-                    <input type="submit" value="Send" className={`relative  -top-1 -left-1 bg-primary py-2.5 px-6 text-lg font-semibold text-white transition-all before:absolute before:top-1 before:left-1 before:-z-[1] before:h-full before:w-full before:border-2 before:border-primary before:transition-all before:content-[''] hover:top-0 hover:left-0 before:hover:top-0 before:hover:left-0 md:p-2 md:px-4 md:text-base`} />
+                    <input type="submit" value="Send" className={`relative cursor-pointer -top-1 -left-1 bg-primary py-2.5 px-6 text-lg font-semibold text-white transition-all before:absolute before:top-1 before:left-1 before:-z-[1] before:h-full before:w-full before:border-2 before:border-primary before:transition-all before:content-[''] hover:top-0 hover:left-0 before:hover:top-0 before:hover:left-0 md:p-2 md:px-4 md:text-base`} />
                 </form>
                 <Toaster position="bottom-right" toastOptions={{ duration: 3000 }} />
             </div>
