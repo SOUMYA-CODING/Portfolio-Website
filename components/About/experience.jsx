@@ -42,15 +42,15 @@ const Experience = () => {
                     <ul className={`w-full flex flex-col items-start justify-between ml-4 xs:ml-2`}>
                         <Details
                             position="Mobile Application Developer"
-                            company="Freelance"
-                            companyLink=""
-                            time="June 2022 - Present"
-                            address="Remote"
-                            work="Developed apps like HRMS App for Arihant Publications, 
-                            Ticket App for Sanaghahara Park, Kenonjhar, Student Management 
-                            App for Nilachal Polytechnic, and Silicon Guest House Website for SIT. 
-                            All applications are developed in Flutter which is cross-platform 
-                            and supported for both Android and iOS."
+                            company="Easy Technologies Pvt. Ltd"
+                            companyLink="http://easytechnologies.co.in/"
+                            time="July 2023 - Present"
+                            address="(Onsite) Bhubaneswar, Odisha"
+                            work="Development of the HRMS App for Arihant Publication (Management Application), 
+                            the Ticket App for Sanaghahara Park (POS Application), 
+                            Maa Tarini App for Maa Tarini Pitha Ghatagaon.
+                            All applications are developed in Flutter with Getx which is cross-platform 
+                            and supported for both Android and iOS." 
                         />
 
                         <Details
@@ -58,13 +58,14 @@ const Experience = () => {
                             company="Argus News"
                             companyLink="https://argusnews.in/"
                             time="October 2022 - July 2023"
-                            address="Bhubaneswar, Odisha"
+                            address="(Onsite) Bhubaneswar, Odisha"
                             work="Developed & integrated Odisha state filter feature, search 
                             functionality, text-to-speech feature, and Google Ads Mob. Through 
                             optimization techniques, I managed to reduce the app size by 10% 
                             and witnessed a remarkable 25% increase in user engagement. 
-                            Additionally, I gained valuable experience in Docker, Django REST Framework, 
-                            and AWS services like S3, EC2, CloudFront, and more."
+                            Additionally, I gained valuable experience in Django REST 
+                            Framework, Retrofit API calling, Firebase integration, 
+                            JWT Token-based authentication."
                         />
                     </ul>
                 </div>
