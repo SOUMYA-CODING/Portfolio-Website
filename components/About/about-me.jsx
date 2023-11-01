@@ -56,7 +56,7 @@ const AboutMe = () => {
                         </div>
                         <div className={`flex flex-col items-center justify-center`}>
                             <span className={`inline-block text-5xl font-bold sm:text-4xl xs:text-xl`}>
-                                <AnimatedNumber value={4} />+
+                                <AnimatedNumber value={6} />+
                             </span>
                             <h2 className={`text-xl font-medium capitalize text-black/75 text-center md:text-lg sm:text-base xs:text-sm`}>
                                 Project Completed
