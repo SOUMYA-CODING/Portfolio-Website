@@ -2,22 +2,23 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import Logo from "./logo";
 import { motion } from 'framer-motion'
 import { Github, Linkedin, Twitter } from "lucide-react";
 
 const CustomLink = ({ href, title, className = "" }) => {
-    const router = useRouter();
+    const pathName = usePathname();
     return (
         <Link href={href} className={`${className} relative group font-semibold`}>
             {title}
-            <span className={`h-[3px] inline-block w-0 bg-black absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300 ${router.asPath === href ? 'w-full' : 'w-0'}`}>&nbsp;</span>
+            <span className={`h-[3px] inline-block w-0 bg-black absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300 ${pathName === href ? 'w-full' : 'w-0'}`}>&nbsp;</span>
         </Link>
     )
 }
 
 const CustomMobileLink = ({ href, title, className = "", toggle }) => {
+    const pathName = usePathname();
     const router = useRouter();
 
     const handleClick = () => {
@@ -28,7 +29,7 @@ const CustomMobileLink = ({ href, title, className = "", toggle }) => {
     return (
         <button href={href} className={`${className} relative group font-semibold text-white my-2`} onClick={handleClick}>
             {title}
-            <span className={`h-[3px] inline-block w-0 bg-white absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300 ${router.asPath === href ? 'w-full' : 'w-0'}`}>&nbsp;</span>
+            <span className={`h-[3px] inline-block w-0 bg-white absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300 ${pathName === href ? 'w-full' : 'w-0'}`}>&nbsp;</span>
         </button>
     )
 }
