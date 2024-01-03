@@ -23,7 +23,7 @@ const Skills = () => {
             </h2>
             <div className={`grid w-full grid-cols-8 gap-10 md:justify-center md:items-center`}>
                 <Skill skillIcon={<Braces className={`h-8 w-8`} />} title='Frontend' skillList='Flutter, Kotlin, Next.js, React.js, Tailwind CSS, Bootstrap' />
-                <Skill skillIcon={<Database className={`h-8 w-8`} />} title='Backend' skillList='Django, MySQL, SQLite, Firebase' />
+                <Skill skillIcon={<Database className={`h-8 w-8`} />} title='Backend' skillList='Django, MySQL, Postgresql, SQLite, Firebase' />
                 <Skill skillIcon={<Palette className={`h-8 w-8`} />} title='Design' skillList='Adobe XD, Figma' />
                 <Skill skillIcon={<GitBranch className={`h-8 w-8`} />} title='Others' skillList='Git, Linux' />
             </div>

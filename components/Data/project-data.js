@@ -1,3 +1,4 @@
+import TicketApp from '../../public/assets/projects/ticket-app.png'
 import MaaTarini from '../../public/assets/projects/maa-tarini.png'
 import JotionClone from '../../public/assets/projects/jotion.webp'
 import SpotifyClone from '../../public/assets/projects/spotify-clone.webp'
@@ -5,6 +6,33 @@ import SpotifyClone from '../../public/assets/projects/spotify-clone.webp'
 const ProjectData = [
     {
         id: '1',
+        projectBanner: TicketApp,
+        projectBannerAlt: 'Soumya Prakash Sahu | Projects - 1 | Sanghagra Ticket App',
+        type: 'App Development',
+        title: 'Sanghagra Ticket - App',
+        shortDescription: 'Smooth Ticketing Experience: Bluetooth Connectivity, Secure UPI Payments, and Intuitive Design.',
+        fullDescription: [
+            'Designed with a focus on seamless ticketing experiences, this project aimed to facilitate ticket issuance through a Bluetooth Point of Sale (POS) device. The solution involved the development of a comprehensive ticketing application using Flutter and Getx, harnessing the power of the Dio package for efficient handling of HTTPs requests and responses. Leveraging Bluetooth functionality, the app seamlessly connected with printers to ensure a streamlined ticketing process.',
+            'Notably, the integration of the Razorpay payment gateway added a layer of convenience for users, enabling secure and hassle-free UPI payments within the application. The user interface was thoughtfully crafted to be friendly and intuitive, ensuring easy accessibility and a positive interaction for all users. Overall, the project successfully combined technology, connectivity, and user-friendly design to enhance the ticketing experience through a sophisticated and efficient application.',
+        ],
+        tech: ['Flutter', 'Getx', 'Razorpay'],
+        features: [
+            'Bluetooth Printer Connectivity',
+            'User-Friendly Interface',
+            'Reusebale Components',
+            'Razorpay Payment Gateway',
+            'Bluetooth POS Integration',
+        ],
+        isThereAnyLink: false,
+        isGithub: false,
+        gitHubLink: '',
+        isLive: false,
+        liveLink: '',
+        isMobileLive: false,
+        mobileliveLink: '#',
+    },
+    {
+        id: '2',
         projectBanner: MaaTarini,
         projectBannerAlt: 'Soumya Prakash Sahu | Projects - 2 | Maa Tarini App',
         type: 'App Development',
@@ -23,17 +51,18 @@ const ProjectData = [
             'Auth with Firebase',
             'App Update Notification',
         ],
+        isThereAnyLink: false,
         isGithub: false,
         gitHubLink: '',
         isLive: false,
         liveLink: '',
-        isMobileLive: true,
+        isMobileLive: false,
         mobileliveLink: '#',
     },
     {
-        id: '2',
+        id: '3',
         projectBanner: JotionClone,
-        projectBannerAlt: 'Soumya Prakash Sahu | Projects - 1 | Jotion',
+        projectBannerAlt: 'Soumya Prakash Sahu | Projects - 3 | Jotion',
         type: 'Web Development',
         title: 'Jotion - Notion Clone',
         shortDescription: 'Jotion is a featured-rich platform to take notes',
@@ -51,6 +80,7 @@ const ProjectData = [
             'Publish your note to the web',
             'Clerk Authentication'
         ],
+        isThereAnyLink: true,
         isGithub: true,
         gitHubLink: 'https://github.com/SOUMYA-CODING/notion-clone',
         isLive: true,
@@ -59,9 +89,9 @@ const ProjectData = [
         mobileliveLink: '',
     },
     {
-        id: '3',
+        id: '4',
         projectBanner: SpotifyClone,
-        projectBannerAlt: 'Soumya Prakash Sahu | Projects - 1 | Spotify Clone',
+        projectBannerAlt: 'Soumya Prakash Sahu | Projects - 4 | Spotify Clone',
         type: 'Web Development',
         title: 'Music application - Spotify Clone',
         shortDescription: ' Spotify your destination for seamless music streaming, blending technology and music in perfect harmony',
@@ -79,6 +109,7 @@ const ProjectData = [
             'Github authentication',
             'Full responsiveness for all devices'
         ],
+        isThereAnyLink: true,
         isGithub: true,
         gitHubLink: 'https://github.com/SOUMYA-CODING/spotify-clone',
         isLive: false,

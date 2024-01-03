@@ -1,4 +1,4 @@
 User-Agent: *
 Allow: /
 
-Sitemap: https://soumya-portfolio-website.vercel.app/
+Sitemap: https://soumyasahu.in/

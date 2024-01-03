@@ -14,6 +14,16 @@ const ProjectDetails = () => {
     const params = useParams()
     const project = ProjectData.find((x) => x.id === params.id)
 
+    const getLinks = () => {
+        if (project.isThereAnyLink) {
+            return (
+                <span className={'font-bold '}>
+                    Links : &nbsp;
+                </span>
+            )
+        }
+    }
+
     const getGithub = () => {
         if (project.isGithub) {
             return (
@@ -92,9 +102,7 @@ const ProjectDetails = () => {
                             </div>
                         </div>
                         <div className={`w-full flex items-start justify-start md:mt-16 md:flex-col`}>
-                            <span className={'font-bold '}>
-                                Links : &nbsp;
-                            </span>
+                            {getLinks()}
                             {getGithub()}
                             {getLive()}
                             {getMobileLive()}

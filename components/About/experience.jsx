@@ -46,11 +46,10 @@ const Experience = () => {
                             companyLink="http://easytechnologies.co.in/"
                             time="July 2023 - Present"
                             address="(Onsite) Bhubaneswar, Odisha"
-                            work="Development of the HRMS App for Arihant Publication (Management Application), 
-                            the Ticket App for Sanaghahara Park (POS Application), 
-                            Maa Tarini App for Maa Tarini Pitha Ghatagaon.
-                            All applications are developed in Flutter with Getx which is cross-platform 
-                            and supported for both Android and iOS." 
+                            work="Designed and developed multiple mobile applications using Flutter with Getx as state management. Using MVVM, MVC pattern with clean architecture.
+                            Created web applications for admin site purposes with Next.js, Tailwind CSS, and shadcn/ui. Used Firebase as backend database
+                            Developed and worked on POS, HRMS, and CMS applications. Implement Razorpay payment system in my applications.
+                            Written optimized code which increase the app performance by 20%. Made the app component-based and reusable code." 
                         />
 
                         <Details
