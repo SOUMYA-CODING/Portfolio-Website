@@ -48,7 +48,7 @@ const AboutMe = () => {
                     <div className={`mt-12 flex flex-row items-center justify-between`}>
                         <div className={`flex flex-col items-center justify-center`}>
                             <span className={`inline-block text-5xl font-bold sm:text-4xl xs:text-xl`}>
-                                <AnimatedNumber value={1} />+
+                                <AnimatedNumber value={2} />+
                             </span>
                             <h2 className={`text-xl font-medium capitalize text-black/75 text-center md:text-lg sm:text-base xs:text-sm`}>
                                 Years of experience
@@ -56,7 +56,7 @@ const AboutMe = () => {
                         </div>
                         <div className={`flex flex-col items-center justify-center`}>
                             <span className={`inline-block text-5xl font-bold sm:text-4xl xs:text-xl`}>
-                                <AnimatedNumber value={7} />+
+                                <AnimatedNumber value={12} />+
                             </span>
                             <h2 className={`text-xl font-medium capitalize text-black/75 text-center md:text-lg sm:text-base xs:text-sm`}>
                                 Project Completed
@@ -64,7 +64,7 @@ const AboutMe = () => {
                         </div>
                         <div className={`flex flex-col items-center justify-center`}>
                             <span className={`inline-block text-5xl font-bold sm:text-4xl xs:text-xl`}>
-                                <AnimatedNumber value={4} />+
+                                <AnimatedNumber value={6} />+
                             </span>
                             <h2 className={`text-xl font-medium capitalize text-black/75 text-center md:text-lg sm:text-base xs:text-sm`}>
                                 satisfied Clients
