@@ -1,0 +1,13 @@
+{
+  "headers": [
+    {
+      "source": "/app-release.apk",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/vnd.android.package-archive"
+        }
+      ]
+    }
+  ]
+}
