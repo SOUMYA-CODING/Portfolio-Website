@@ -22,6 +22,7 @@ const ContactForm = () => {
                 setMessage("");
                 toast.success("Successfully send the message")
             }, (error) => {
+                console.error("EmailJS Error:", error);
                 toast.error("Something went wrong!")
             });
     };
@@ -32,11 +33,11 @@ const ContactForm = () => {
                 <form ref={form} onSubmit={sendEmail} className={`w-[50%] xl:w-[60%] md:w-full `} autoComplete="off">
                     <div className={`flex flex-col items-start justify-start mb-8`}>
                         <label htmlFor="name">Name</label>
-                        <input type="text" id="name" name="user_name" value={name} onChange={(e) => setName(e.target.value)} className={`border-b-2 bg-transparent border-black outline-none p-2 w-full`} required />
+                        <input type="text" id="name" name="from_name" value={name} onChange={(e) => setName(e.target.value)} className={`border-b-2 bg-transparent border-black outline-none p-2 w-full`} required />
                     </div>
                     <div className={`flex flex-col items-start justify-start mb-8`}>
                         <label htmlFor="email">E-mail</label>
-                        <input type="email" id="email" name="user_email" value={email} onChange={(e) => setEmail(e.target.value)} className={`border-b-2 bg-transparent border-black outline-none p-2 w-full`} required />
+                        <input type="email" id="email" name="from_email" value={email} onChange={(e) => setEmail(e.target.value)} className={`border-b-2 bg-transparent border-black outline-none p-2 w-full`} required />
                     </div>
                     <div className={`flex flex-col items-start justify-start mb-8`}>
                         <label htmlFor="message">Message</label>
