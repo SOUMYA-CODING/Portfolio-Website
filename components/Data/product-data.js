@@ -50,7 +50,6 @@ const ProductData = [
             'Custom and Google Ad Integration',
             'Text-to-Speech Functionality for hands-free reading',
             'Advanced Search with lightning-fast results',
-            'Optimized App Size (~20MB) for quick loading',
             'Real-Time Notifications for new articles and updates',
             'Role-Based Access Control (admins, publishers, readers)',
             'User-Friendly News Submission Interface',
