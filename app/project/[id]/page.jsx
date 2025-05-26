@@ -71,7 +71,9 @@ const ProjectDetails = () => {
                                 ))
                             }
                         </div>
-                        <Image src={project.projectBanner} alt={project.projectBannerAlt} />
+                        <div className="flex items-center justify-center">
+                            <Image src={project.projectBanner} alt={project.projectBannerAlt} />
+                        </div>
                         <h2 className={`font-bold text-6xl mt-24 mb-8 w-full text-left md:text-4xl md:my-12`}>
                             Overview
                         </h2>

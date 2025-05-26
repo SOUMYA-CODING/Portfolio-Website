@@ -2,12 +2,38 @@ import TicketApp from '../../public/assets/projects/ticket-app.png'
 import MaaTarini from '../../public/assets/projects/maa-tarini.png'
 import JotionClone from '../../public/assets/projects/jotion.webp'
 import SpotifyClone from '../../public/assets/projects/spotify-clone.webp'
+import DAParivar from '../../public/assets/projects/DA Parivar.png'
 
 const ProjectData = [
     {
         id: '1',
+        projectBanner: DAParivar,
+        projectBannerAlt: 'Soumya Prakash Sahu | Projects - 1 | DA Parivar',
+        type: 'App Development',
+        title: 'Society Management - App',
+        shortDescription: 'All-in-one society management app designed for both flat owners and tenants',
+        fullDescription: [
+            'DA Parivar is your all-in-one society management app designed for both flat owners and tenants. Seamlessly manage payments, house details, tenant records, and vehicles — all in one place. Whether youre an owner or a resident, DA Parivar keeps your society life organized and stress-free.',
+        ],
+        tech: ['Flutter', 'Riverpod', 'GetPay - IDBI Payment Gateway'],
+        features: [
+            'Payment Management',
+            'Tenant Management',
+            'Flat Details',
+            'Vehicle Records',
+        ],
+        isThereAnyLink: false,
+        isGithub: false,
+        gitHubLink: '',
+        isLive: false,
+        liveLink: '',
+        isMobileLive: false,
+        mobileliveLink: '#',
+    },
+    {
+        id: '2',
         projectBanner: TicketApp,
-        projectBannerAlt: 'Soumya Prakash Sahu | Projects - 1 | Sanghagra Ticket App',
+        projectBannerAlt: 'Soumya Prakash Sahu | Projects - 2 | Sanghagra Ticket App',
         type: 'App Development',
         title: 'Sanghagra Ticket - App',
         shortDescription: 'Smooth Ticketing Experience: Bluetooth Connectivity, Secure UPI Payments, and Intuitive Design.',
@@ -32,9 +58,9 @@ const ProjectData = [
         mobileliveLink: '#',
     },
     {
-        id: '2',
+        id: '3',
         projectBanner: MaaTarini,
-        projectBannerAlt: 'Soumya Prakash Sahu | Projects - 2 | Maa Tarini App',
+        projectBannerAlt: 'Soumya Prakash Sahu | Projects - 3 | Maa Tarini App',
         type: 'App Development',
         title: 'Maa Tarini - App',
         shortDescription: 'Maa Tarini is one of the embodiments of Shakti and is one of the chief presiding Goddess in Oriya culture. Her chief shrine is in Ghatgaon, Keonjhar District, Odisha',
@@ -60,9 +86,9 @@ const ProjectData = [
         mobileliveLink: '#',
     },
     {
-        id: '3',
+        id: '4',
         projectBanner: JotionClone,
-        projectBannerAlt: 'Soumya Prakash Sahu | Projects - 3 | Jotion',
+        projectBannerAlt: 'Soumya Prakash Sahu | Projects - 4 | Jotion',
         type: 'Web Development',
         title: 'Jotion - Notion Clone',
         shortDescription: 'Jotion is a featured-rich platform to take notes',
@@ -89,9 +115,9 @@ const ProjectData = [
         mobileliveLink: '',
     },
     {
-        id: '4',
+        id: '5',
         projectBanner: SpotifyClone,
-        projectBannerAlt: 'Soumya Prakash Sahu | Projects - 4 | Spotify Clone',
+        projectBannerAlt: 'Soumya Prakash Sahu | Projects - 5 | Spotify Clone',
         type: 'Web Development',
         title: 'Music application - Spotify Clone',
         shortDescription: ' Spotify your destination for seamless music streaming, blending technology and music in perfect harmony',
