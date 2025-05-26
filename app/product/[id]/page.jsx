@@ -23,10 +23,10 @@ const ProductDetails = () => {
                 <Layout className={`pt-10`}>
                     <div className="flex items-center justify-center mb-16 ">
                         <Image
-                        src={project.logo || "/placeholder.svg"}
-                        alt={project.title}
-                        className="w-[300px] h-auto"
-                    />
+                            src={project.logo || "/placeholder.svg"}
+                            alt={project.title}
+                            className="w-[300px] h-auto"
+                        />
                     </div>
                     <div className={`px-16 xl:px-0`}>
                         <div className="flex items-center justify-center">
@@ -83,15 +83,17 @@ const ProductDetails = () => {
                                 {project.mobileImages.map((image, index) => (
                                     <div
                                         key={index}
-                                        className="aspect-[7/16] relative overflow-hidden rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-shadow"
+                                        className="relative overflow-hidden rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-shadow"
                                     >
                                         <Image
                                             src={image || "/placeholder.svg"}
                                             alt={`${project.title} Mobile Screenshot ${index + 1}`}
-                                            fill
-                                            className="object-cover transition-transform duration-300"
+                                            width={800} // adjust as needed
+                                            height={0}
+                                            className="w-full h-auto object-cover transition-transform duration-300"
                                         />
                                     </div>
+
                                 ))}
                             </div>
                         </div>
