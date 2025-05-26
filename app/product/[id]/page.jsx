@@ -116,6 +116,19 @@ const ProductDetails = () => {
                                 ))}
                             </div>
                         </div>
+
+                        <div className="mt-24">
+                            <h2 className={`font-bold text-4xl mb-8 w-full text-left md:text-3xl`}>Upcomming Features</h2>
+                            <div className="grid grid-cols-3 gap-6 lg:grid-cols-2 sm:grid-cols-1">
+                                <ul className="space-y-2 list-disc list-inside">
+                                    {project.upcommingFeatures.map((feature, index) => (
+                                        <li key={index} className="pl-1 leading-relaxed">
+                                            {feature}
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </Layout>
             </div>

@@ -41,6 +41,7 @@ const ProductData = [
         ],
         tech: ['Flutter (Hybrid Mobile Application)', 'Riverpod', 'Django (Backend)', 'Django Rest Framework', 'Cloudinary (Form Images and Video)', 'Bootstrap', 'PostgreSQL', 'Redis', 'Firebase', 'Celery', 'Nextjs (Webiste)', 'Tailwind CSS', 'Gemini', 'Railway (Backend Deployment)', 'Vercel (Website Deployment)'],
         features: [
+            'Multi-Language Support',
             'Live Streaming (supports RTMP & YouTube sources)',
             'Breaking News (highlighted for 2 hours)',
             'Subscription-Based Publishing (paid users only)',
@@ -60,6 +61,12 @@ const ProductData = [
         ],
         mobileImages:[Mob1, Mob2, Mob3, Mob4, Mob5, Mob6, Mob7, Mob8, Mob9, Mob10, Mob11, Mob12],
         webImages:[Web1, Web2, Web3, Web4, Web5, Web6, Web7, Web8, Web9],
+        upcommingFeatures: [
+            'Enhanced User Profiles with social sharing options',
+            'Advanced Analytics Dashboard for publishers',
+            'Webiste Will be available soon',
+            'Magazine Features',
+        ],
     },
 ]
 
