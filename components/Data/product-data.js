@@ -64,7 +64,7 @@ const ProductData = [
         upcommingFeatures: [
             'Enhanced User Profiles with social sharing options',
             'Advanced Analytics Dashboard for publishers',
-            'Webiste Will be available soon',
+            'Website Will be available soon',
             'Magazine Features',
         ],
     },
