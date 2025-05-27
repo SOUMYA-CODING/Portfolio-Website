@@ -1,5 +1,5 @@
 import ContactForm from "@/components/Contact/contact-form"
-import { Check, Database, Smartphone, Globe, Server, Zap, Shield, Star, ArrowRight } from "lucide-react"
+import { Check, Database, Smartphone, Globe, Server, Zap, Shield, Star, ArrowRight, Clock } from "lucide-react"
 import Link from "next/link"
 
 const technologies = {
@@ -442,6 +442,36 @@ const TailwindCompatiblePricing = () => {
                         </div>
                     </div>
                 </div>
+
+                <div className="mb-20 md:mb-16 sm:mb-12">
+                    <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-200">
+                        <div className="bg-gray-800 px-8 lg:px-6 md:px-4 py-8 lg:py-6 md:py-4">
+                            <div className="flex lg:flex-col md:flex-col items-center lg:items-start md:items-start justify-between">
+                                <div className="flex items-center lg:mb-4 md:mb-3">
+                                    <Clock className="h-10 w-10 md:h-8 md:w-8 text-white mr-4 md:mr-3" />
+                                    <div>
+                                        <h2 className="text-4xl lg:text-3xl md:text-2xl sm:text-xl font-bold text-white">
+                                            Hourly Engagement Model
+                                        </h2>
+                                        <p className="text-gray-300 mt-2 md:text-sm">Ideal for ongoing or flexible-scope projects</p>
+                                    </div>
+                                </div>
+                                <div className="lg:hidden md:hidden">
+                                    <div className="bg-gray-700 rounded-lg p-4 md:p-3">
+                                        <p className="text-white font-semibold md:text-sm">Hourly Rate</p>
+                                        <p className="text-2xl md:text-xl font-bold text-white">₹2,800 / hr</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="p-8 lg:p-6 md:p-4">
+                            <p className="text-gray-700 text-lg md:text-base">
+                                We use <Link href="https://www.getharvest.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">Harvest</Link> for transparent time tracking. Monthly billing models can also be discussed based on the projects nature and duration.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
 
                 <div className="bg-amber-50 border-2 border-amber-200 rounded-2xl p-10 lg:p-8 md:p-6 sm:p-4 mb-16 md:mb-12 sm:mb-8">
                     <h3 className="text-3xl lg:text-2xl md:text-xl font-bold text-amber-800 mb-8 md:mb-6 flex items-center">
