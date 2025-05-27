@@ -456,8 +456,7 @@ const TailwindCompatiblePricing = () => {
                             <div>
                                 <h4 className="font-semibold text-amber-800 mb-2 md:text-sm">Flexible Pricing</h4>
                                 <p className="text-amber-700 md:text-sm">
-                                    These are estimated starting prices. Actual costs may vary based on the detailed project scope and
-                                    requirements.
+                                    These are my estimated starting prices. Actual costs may vary based on your specific project scope and requirements.
                                 </p>
                             </div>
                         </div>
@@ -468,7 +467,7 @@ const TailwindCompatiblePricing = () => {
                             <div>
                                 <h4 className="font-semibold text-amber-800 mb-2 md:text-sm">Additional Services</h4>
                                 <p className="text-amber-700 md:text-sm">
-                                    Additional revisions, support, or maintenance may incur separate charges.
+                                    Any extra revisions, support, or maintenance may come with separate charges.
                                 </p>
                             </div>
                         </div>
@@ -479,7 +478,7 @@ const TailwindCompatiblePricing = () => {
                             <div>
                                 <h4 className="font-semibold text-amber-800 mb-2 md:text-sm">Market Updates</h4>
                                 <p className="text-amber-700 md:text-sm">
-                                    Prices are subject to change based on market conditions and technology updates.
+                                    My pricing may change based on market conditions and technology trends.
                                 </p>
                             </div>
                         </div>
@@ -490,7 +489,7 @@ const TailwindCompatiblePricing = () => {
                             <div>
                                 <h4 className="font-semibold text-amber-800 mb-2 md:text-sm">Custom Quotes</h4>
                                 <p className="text-amber-700 md:text-sm">
-                                    Contact us for a detailed quote based on your specific project requirements.
+                                    Feel free to contact me for a detailed quote tailored to your specific project needs.
                                 </p>
                             </div>
                         </div>
@@ -503,8 +502,7 @@ const TailwindCompatiblePricing = () => {
                             Ready to Start Your Project?
                         </h3>
                         <p className="text-xl lg:text-lg md:text-base sm:text-sm mb-12 md:mb-8 mx-auto leading-relaxed">
-                            Get a detailed quote tailored to your specific requirements. Our team is ready to bring your vision to
-                            life with cutting-edge technology and exceptional quality.
+                            Get a detailed quote tailored to your specific requirements. I’m ready to bring your vision to life using cutting-edge technology and delivering exceptional quality.
                         </p>
                     </div>
                     <ContactForm />

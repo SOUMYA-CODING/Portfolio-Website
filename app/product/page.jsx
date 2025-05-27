@@ -57,8 +57,7 @@ const Product = () => (
                             Ready to Start Your Project?
                         </h3>
                         <p className="text-xl lg:text-lg md:text-base sm:text-sm text-gray-300 mb-12 md:mb-8 max-w-3xl lg:max-w-2xl mx-auto leading-relaxed">
-                            Get a detailed quote tailored to your specific requirements. Our team is ready to bring your vision to
-                            life with cutting-edge technology and exceptional quality.
+                            Get a detailed quote tailored to your specific requirements. I’m ready to bring your vision to life using cutting-edge technology and delivering exceptional quality.
                         </p>
                         <div className="flex lg:flex-col md:flex-col sm:flex-col gap-6 md:gap-4 justify-center mb-12 md:mb-8">
                             <Link href='/price' className="bg-white text-gray-900 px-8 py-4 md:px-6 md:py-3 sm:px-4 sm:py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
