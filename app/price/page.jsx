@@ -336,7 +336,7 @@ const TailwindCompatiblePricing = () => {
                                             </td>
                                             <td className="py-4 px-4 md:py-3 md:px-2">
                                                 <span className="text-2xl lg:text-xl md:text-lg font-bold text-green-600">
-                                                    ₹15,000 - ₹25,000+
+                                                    ₹6,000 - ₹10,000+
                                                 </span>
                                                 <p className="text-sm md:text-xs text-gray-500 mt-1">(varies based on complexity)</p>
                                             </td>
