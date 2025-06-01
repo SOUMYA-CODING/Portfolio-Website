@@ -1,4 +1,4 @@
-import BharatKhabarBanner from '../../public/assets/products/bharatkhabar/bharatkhabarbanner.png'
+import BharatKhabarBanner from '../../public/assets/products/bharatkhabar/bharatkhabarbanner-2.png'
 import BharatKhabarLogo from '../../public/assets/products/bharatkhabar/full_logo_dark.png'
 // Bharat Khabar Project Images List
 import Mob1 from '../../public/assets/products/bharatkhabar/mob1.png'

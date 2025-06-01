@@ -21,13 +21,6 @@ const ProductDetails = () => {
             <TransitionEffect />
             <div className={`w-full mb-16 flex flex-col items-center justify-center`}>
                 <Layout className={`pt-10`}>
-                    <div className="flex items-center justify-center mb-16 ">
-                        <Image
-                            src={project.logo || "/placeholder.svg"}
-                            alt={project.title}
-                            className="w-[300px] h-auto"
-                        />
-                    </div>
                     <div className={`px-16 xl:px-0`}>
                         <div className="flex items-center justify-center">
                             <Image
