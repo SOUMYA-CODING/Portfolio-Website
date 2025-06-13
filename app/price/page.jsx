@@ -5,7 +5,7 @@ import Link from "next/link"
 const technologies = {
     mobile: [
         { name: "Flutter", icon: "📱", description: "Cross-platform mobile development" },
-        { name: "Dart", icon: "🎯", description: "Modern programming language" },
+        { name: "Kotlin", icon: "🤖", description: "Native Android development" },
         { name: "Firebase", icon: "🔥", description: "Backend-as-a-Service platform" },
         { name: "REST APIs", icon: "🔗", description: "API integration and development" },
     ],
@@ -22,6 +22,8 @@ const technologies = {
         { name: "Django Ninja", icon: "🥷", description: "Fast API framework" },
         { name: "PostgreSQL", icon: "🐘", description: "Advanced relational database" },
         { name: "Railway", icon: "🚂", description: "Cloud deployment platform" },
+        { name: "Cloudflare", icon: "☁️", description: "CDN, DNS, and edge security platform" },
+        { name: "Cloudinary", icon: "🌥️", description: "Image and video management service" },
         { name: "Redis", icon: "🔴", description: "In-memory data structure store" },
     ],
 }
@@ -29,7 +31,6 @@ const technologies = {
 const TailwindCompatiblePricing = () => {
     return (
         <div className="min-h-screen bg-gray-50">
-            {/* Hero Section */}
             <div className="relative overflow-hidden bg-white">
                 <div className="absolute inset-0 bg-blue-50 opacity-50"></div>
                 <div className="relative max-w-7xl mx-auto px-4 lg:px-6 xl:px-8 py-20 md:py-16 sm:py-12">
@@ -80,7 +81,7 @@ const TailwindCompatiblePricing = () => {
                                     <Smartphone className="h-8 w-8 md:h-6 md:w-6 text-white mr-3" />
                                     <h3 className="text-2xl lg:text-xl md:text-lg font-bold text-white">Mobile Development</h3>
                                 </div>
-                                <p className="text-blue-100">Cross-platform mobile solutions</p>
+                                <p className="text-blue-100">Mobile solutions</p>
                             </div>
                             <div className="p-8 lg:p-6 md:p-4">
                                 <div className="space-y-4 md:space-y-3">
@@ -456,7 +457,7 @@ const TailwindCompatiblePricing = () => {
                                         <p className="text-gray-300 mt-2 md:text-sm">Ideal for ongoing or flexible-scope projects</p>
                                     </div>
                                 </div>
-                                <div className="lg:hidden md:hidden">
+                                <div>
                                     <div className="bg-gray-700 rounded-lg p-4 md:p-3">
                                         <p className="text-white font-semibold md:text-sm">Hourly Rate</p>
                                         <p className="text-2xl md:text-xl font-bold text-white">₹2,800 / hr</p>
@@ -479,6 +480,17 @@ const TailwindCompatiblePricing = () => {
                         Important Notes & Terms
                     </h3>
                     <div className="grid grid-cols-2 md:grid-cols-1 gap-8 md:gap-6 sm:gap-4">
+                        <div className="flex items-start">
+                            <div className="flex-shrink-0 w-8 h-8 md:w-6 md:h-6 bg-amber-200 rounded-full flex items-center justify-center mr-4 md:mr-3 mt-1">
+                                <Check className="h-5 w-5 md:h-4 md:w-4 text-amber-700" />
+                            </div>
+                            <div>
+                                <h4 className="font-semibold text-amber-800 mb-2 md:text-sm">Payment Terms</h4>
+                                <p className="text-amber-700 md:text-sm">
+                                    Before starting any project, an agreement will be signed. I require either a 40% upfront payment with the remaining 60% upon completion, or a 40% upfront with payments made on a monthly basis depending on the project duration.
+                                </p>
+                            </div>
+                        </div>
                         <div className="flex items-start">
                             <div className="flex-shrink-0 w-8 h-8 md:w-6 md:h-6 bg-amber-200 rounded-full flex items-center justify-center mr-4 md:mr-3 mt-1">
                                 <Check className="h-5 w-5 md:h-4 md:w-4 text-amber-700" />
